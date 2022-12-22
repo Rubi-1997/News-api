@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#767373;
+    height: 4rem;
+    width:48rem;
+    border-radius: 15px ;
+    box-shadow: 4px 8px;
+
+  }
+  .NavItem.active span{
+    color: red;
+
+  }
+  span{
+    display: block;
+    font-size:rem;
+  }
+  li span{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+  }
+  li{
+    float: left;
+  }
+  li span:hover{
+    color:black;
+    cursor: pointer;
+  }
